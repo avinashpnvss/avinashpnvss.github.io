@@ -1,0 +1,153 @@
+.pic
+{
+    width: 120px;
+    height: 220px;
+    border-radius: 32%;
+    box-shadow: 10px 10px 8px 6px rgb(80, 77, 72);
+}
+
+.text
+{
+    background: rgb(230, 205, 98);
+    color: rgba(0, 0, 255, 0.795);
+    font-size: 15px;
+    padding: 30px;
+    margin: 0 auto;
+    width: 55%;
+}
+
+.box-padding
+{
+    margin-bottom: 10px;
+}
+
+.box
+{
+    padding-top: 25px;
+}
+
+.image
+{
+    width: 100px;
+    height: 100px;
+}
+
+.medium-image
+{
+    width: 100px;
+    height: 110px;
+}
+
+.big-image
+{
+    width: 100px;
+    height: 120px;
+}
+
+.sih-logo
+{
+    width: 200px !important;
+    height: 100px;
+}
+
+.pro
+{
+    padding-top: 20px;
+}
+.fade-in
+{
+    opacity: 60%;
+    transition:opacity 0.8s
+}
+
+.fade-in:hover
+{
+    opacity:100%;
+    transition:opacity 0.5s
+}
+
+.fa
+{
+    padding: 20px;
+    margin: 0 5px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40%;
+    transition: all 0.3s;
+}
+
+.media-icon
+{
+    font-size: 25px !important;
+}
+
+.fa:hover
+{
+    transform: scale(1.1);
+}
+
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-github, .fa-codepen, .fa-linkedin
+{
+    background: #333;
+    color: white;
+}
+
+.fa-facebook:hover
+{
+    color: rgb(255, 255, 255);
+    background-color: #2a5ab9;
+    text-decoration: none;
+}
+
+.fa-twitter:hover
+{
+    color: rgb(255, 255, 255);
+    background-color: #1DA1F2;
+    text-decoration: none;
+}
+
+
+.fa-instagram:hover
+{
+    color: rgb(255, 255, 255);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    text-decoration: none;
+}
+
+.fa-github:hover
+{
+    color: rgb(255, 255, 255);
+    background-color: #194192;
+    text-decoration: none;
+}
+
+.fa-codepen:hover
+{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+.fa-linkedin:hover
+{
+    color: rgb(255, 255, 255);
+    background-color: #1a3f8a;
+    text-decoration: none;
+}
+
+@media screen and (max-width:520px)
+{
+    .fa
+    {
+        width: 60px;
+        padding: 15px;
+    }
+}
+
+footer
+{
+    padding: 60px 0;
+    color: #fff;
+    background-color: #000;
+}
