@@ -1,9 +1,29 @@
+.name
+{
+    padding-top: 20px;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.intro
+{
+    width: 500px;
+    margin: 100px auto auto auto;
+    background-color: rgba(128, 128, 128, 0.144);
+    padding: 40px 0 40px 0;
+}
+
 .pic
 {
     width: 120px;
     height: 220px;
     border-radius: 32%;
     box-shadow: 10px 10px 8px 6px rgb(80, 77, 72);
+}
+
+.pad-top
+{
+    padding-top: 55px;
 }
 
 .text
@@ -23,11 +43,12 @@
 
 .box
 {
-    padding-top: 25px;
+    padding-top: 55px;
 }
 
 .image
 {
+    margin-top: 10px;
     width: 100px;
     height: 100px;
 }
